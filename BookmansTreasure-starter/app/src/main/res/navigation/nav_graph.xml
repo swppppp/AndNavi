@@ -2,8 +2,8 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph"
-    app:startDestination="@+id/bookSearchFragment">
+    app:startDestination="@+id/bookSearchFragment"
+    android:id="@+id/nav_graph">
     
     <fragment
         android:id="@+id/bookSearchFragment"
@@ -11,6 +11,5 @@
         android:label="Book Search Fragment"
         tools:layout="@layout/fragment_book_search">
     </fragment>
-
 
 </navigation>
